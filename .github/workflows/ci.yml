@@ -28,7 +28,22 @@ jobs:
       - name: Validate manifest.json syntax
         if: hashFiles('manifest.json') != ''
         run: |
-          python3 -c "import json; json.load(open('manifest.json'))" && echo "manifest.json is valid JSON"
+          python3 << 'EOF'
+          import json
+          import sys
+
+          try:
+              with open('manifest.json') as f:
+                  json.load(f)
+              print("manifest.json is valid JSON")
+          except json.JSONDecodeError as e:
+              print(f"Error: Invalid JSON in manifest.json")
+              print(f"  Line {e.lineno}, Column {e.colno}: {e.msg}")
+              sys.exit(1)
+          except FileNotFoundError:
+              print("Error: manifest.json not found")
+              sys.exit(1)
+          EOF
 
       - name: Check required manifest fields
         if: hashFiles('manifest.json') != ''
@@ -65,8 +80,24 @@ jobs:
       - name: Create extension package
         run: |
           if [ -f "manifest.json" ]; then
-            # Create a zip file of the extension
-            zip -r vtab-extension.zip . -x "*.git*" -x "*.github*" -x "*.md" -x "LICENSE"
+            # Create a zip file of the extension, excluding non-extension files
+            zip -r vtab-extension.zip . \
+              -x "*.git*" \
+              -x ".github/*" \
+              -x "*.md" \
+              -x "LICENSE" \
+              -x "*.zip" \
+              -x "node_modules/*" \
+              -x "*.log" \
+              -x ".env*" \
+              -x "*.test.js" \
+              -x "*.spec.js" \
+              -x "__tests__/*" \
+              -x "tests/*" \
+              -x ".eslint*" \
+              -x ".prettier*" \
+              -x "package*.json" \
+              -x "TODO.md"
             echo "Extension package created"
             unzip -l vtab-extension.zip
           else
