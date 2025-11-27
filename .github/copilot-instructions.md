@@ -55,3 +55,5 @@ vtab is a Chrome Extension that organizes browser tabs in a vertical sidebar for
 - Test all changes manually before submitting
 - Update documentation if adding new features
 - Ensure the extension loads without errors after changes
+- Update the CHANGELOG.md with a summary of the changes
+- Update the version in manifest.json appropriately
