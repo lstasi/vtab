@@ -6,14 +6,14 @@ This is a step-by-step todo list with small, testable iterations for building th
 
 - [x] Create `manifest.json` with basic extension metadata (name, version, description)
 - [x] Add extension icon (16x16, 48x48, 128x128 sizes)
-- [ ] Load extension in Chrome developer mode and verify it appears in extensions list
+- [x] Load extension in Chrome developer mode and verify it appears in extensions list
 
 ## Phase 2: Sidebar Panel Setup
 
-- [ ] Add `side_panel` permission to manifest
-- [ ] Create basic `sidepanel.html` with "Hello UpRight" text
-- [ ] Add `sidepanel.css` with minimal styling
-- [ ] Configure side panel in manifest
+- [x] Add `side_panel` permission to manifest
+- [x] Create basic `sidepanel.html` with "Hello UpRight" text
+- [x] Add `sidepanel.css` with minimal styling
+- [x] Configure side panel in manifest
 - [ ] Test: Open side panel and verify "Hello UpRight" displays
 
 ## Phase 3: Display Open Tabs

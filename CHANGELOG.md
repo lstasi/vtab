@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2024-11-28
+
+### Added
+- Side panel support with `sidePanel` permission
+- Basic `sidepanel.html` displaying "Hello UpRight"
+- Minimal `sidepanel.css` styling for the sidebar
+
+## [0.1.0] - 2024-01-01
+
 ### Added
 - Initial `manifest.json` with basic extension metadata (name, version, description, manifest_version)
 - Extension icons in 16x16, 48x48, and 128x128 sizes
