@@ -1,4 +1,4 @@
-# vtab
+# UpRight
 
 A Chrome Extension that organizes your browser tabs in a vertical sidebar for improved tab management and navigation.
 
