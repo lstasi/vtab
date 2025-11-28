@@ -4,8 +4,8 @@ This is a step-by-step todo list with small, testable iterations for building th
 
 ## Phase 1: Minimal Extension Setup
 
-- [ ] Create `manifest.json` with basic extension metadata (name, version, description)
-- [ ] Add extension icon (16x16, 48x48, 128x128 sizes)
+- [x] Create `manifest.json` with basic extension metadata (name, version, description)
+- [x] Add extension icon (16x16, 48x48, 128x128 sizes)
 - [ ] Load extension in Chrome developer mode and verify it appears in extensions list
 
 ## Phase 2: Sidebar Panel Setup
