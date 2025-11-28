@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Initial `manifest.json` with basic extension metadata (name, version, description, manifest_version)
+- Extension icons in 16x16, 48x48, and 128x128 sizes
+
 ### Changed
 - Renamed project from vtab to UpRight
 
