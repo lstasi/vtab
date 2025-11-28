@@ -4,7 +4,7 @@ A Chrome Extension that organizes your browser tabs in a vertical sidebar for im
 
 ## Overview
 
-vtab provides a left-side vertical tab bar in Chrome, making it easier to:
+UpRight provides a left-side vertical tab bar in Chrome, making it easier to:
 - View and manage many open tabs at once
 - See full tab titles without truncation
 - Navigate between tabs quickly

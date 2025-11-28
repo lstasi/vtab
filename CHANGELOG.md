@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- Renamed project from vtab to UpRight
+
 ### Added
 - Initial project setup with README, TODO, and LICENSE
 - GitHub and project configuration

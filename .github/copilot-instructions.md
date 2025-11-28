@@ -1,8 +1,8 @@
-# Copilot Instructions for vtab
+# Copilot Instructions for UpRight
 
 ## Project Overview
 
-vtab is a Chrome Extension that organizes browser tabs in a vertical sidebar for improved tab management and navigation. The extension provides a left-side vertical tab bar in Chrome, making it easier to view and manage many open tabs at once.
+UpRight is a Chrome Extension that organizes browser tabs in a vertical sidebar for improved tab management and navigation. The extension provides a left-side vertical tab bar in Chrome, making it easier to view and manage many open tabs at once.
 
 ## Technology Stack
 

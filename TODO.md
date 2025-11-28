@@ -1,4 +1,4 @@
-# TODO - vtab Chrome Extension
+# TODO - UpRight Chrome Extension
 
 This is a step-by-step todo list with small, testable iterations for building the basic extension.
 
@@ -11,10 +11,10 @@ This is a step-by-step todo list with small, testable iterations for building th
 ## Phase 2: Sidebar Panel Setup
 
 - [ ] Add `side_panel` permission to manifest
-- [ ] Create basic `sidepanel.html` with "Hello vtab" text
+- [ ] Create basic `sidepanel.html` with "Hello UpRight" text
 - [ ] Add `sidepanel.css` with minimal styling
 - [ ] Configure side panel in manifest
-- [ ] Test: Open side panel and verify "Hello vtab" displays
+- [ ] Test: Open side panel and verify "Hello UpRight" displays
 
 ## Phase 3: Display Open Tabs
 

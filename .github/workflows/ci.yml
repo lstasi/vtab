@@ -84,7 +84,7 @@ jobs:
         run: |
           if [ -f "manifest.json" ]; then
             # Create a zip file of the extension, excluding non-extension files
-            zip -r vtab-extension.zip . \
+            zip -r upright-extension.zip . \
               -x "*.git*" \
               -x ".github/*" \
               -x "*.md" \
@@ -102,7 +102,7 @@ jobs:
               -x "package*.json" \
               -x "TODO.md"
             echo "Extension package created"
-            unzip -l vtab-extension.zip
+            unzip -l upright-extension.zip
           else
             echo "No manifest.json found - skipping build"
           fi
@@ -111,6 +111,6 @@ jobs:
         if: hashFiles('manifest.json') != ''
         uses: actions/upload-artifact@v4
         with:
-          name: vtab-extension
-          path: vtab-extension.zip
+          name: upright-extension
+          path: upright-extension.zip
           retention-days: 30
