@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0] - 2025-12-04
+
+### Added
+- `tabs` permission to manifest for querying browser tabs
+- `sidepanel.js` to query and display all open tabs
+- Tab list container in `sidepanel.html`
+- CSS styling for tab list items
+
+### Changed
+- Updated header text from "Hello UpRight" to "UpRight"
+
 ## [0.2.0] - 2024-11-28
 
 ### Added

@@ -14,13 +14,13 @@ This is a step-by-step todo list with small, testable iterations for building th
 - [x] Create basic `sidepanel.html` with "Hello UpRight" text
 - [x] Add `sidepanel.css` with minimal styling
 - [x] Configure side panel in manifest
-- [ ] Test: Open side panel and verify "Hello UpRight" displays
+- [x] Test: Open side panel and verify "Hello UpRight" displays
 
 ## Phase 3: Display Open Tabs
 
-- [ ] Add `tabs` permission to manifest
-- [ ] Create `sidepanel.js` to query all open tabs
-- [ ] Display list of tab titles in the sidebar
+- [x] Add `tabs` permission to manifest
+- [x] Create `sidepanel.js` to query all open tabs
+- [x] Display list of tab titles in the sidebar
 - [ ] Test: Open multiple tabs, verify all titles appear in sidebar
 
 ## Phase 4: Tab Favicons
